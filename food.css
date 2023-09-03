@@ -1,0 +1,45 @@
+/* styles.css */
+
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  display: block;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  margin: 30px;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.box-l {
+  width: 250px;
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+.box-r {
+}
+
+.button {
+  box-sizing: border-box;
+  width: 400px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 20px 40px;
+  background-color: #3498db;
+  font-size: 30px;
+  color: white;
+
+  border: none;
+  border-radius: 100px;
+  
+  transition: background-color 0.3s, color 0.3s;
+}
