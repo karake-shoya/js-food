@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="food.css" />
+    <title>Document</title>
+  </head>
+
+  <!--リロードで消える→サーバーにデータを保存する方法を調べる、クッキーやローカルサーバーはNG。ipadの表示確認が必要-->
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="box-l">
+          <p id="text1">牛乳の受取</p>
+        </div>
+        <div class="box-r">
+          <button class="buttonA" data-button-type="A" data-button-index="1">養護教諭が行います</button>
+          <button class="buttonB" data-button-type="B" data-button-index="1">未実施です</button>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="box-l">
+          <p id="text2">給食の受取</p>
+        </div>
+        <div class="box-r">
+          <button class="buttonA" data-button-type="A" data-button-index="2">養護教諭が行います</button>
+          <button class="buttonB" data-button-type="B" data-button-index="2">未実施です</button>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="box-l">
+          <p id="text3">タオルの準備</p>
+        </div>
+        <div class="box-r">
+          <button class="buttonA" data-button-type="A" data-button-index="3">養護教諭が行います</button>
+          <button class="buttonB" data-button-type="B" data-button-index="3">未実施です</button>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="box-l">
+          <p id="text4">食数の確認</p>
+        </div>
+        <div class="box-r">
+          <button class="buttonA" data-button-type="A" data-button-index="4">養護教諭が行います</button>
+          <button class="buttonB" data-button-type="B" data-button-index="4">未実施です</button>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="box-l">
+          <p id="text5">検食の準備</p>
+        </div>
+        <div class="box-r">
+          <button class="buttonA" data-button-type="A" data-button-index="5">養護教諭が行います</button>
+          <button class="buttonB" data-button-type="B" data-button-index="5">未実施です</button>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="box-l">
+          <p id="text6">食缶と牛乳の準備</p>
+        </div>
+        <div class="box-r">
+          <button class="buttonA" data-button-type="A" data-button-index="6">養護教諭が行います</button>
+          <button class="buttonB" data-button-type="B" data-button-index="6">未実施です</button>
+        </div>
+      </div>
+    </div>
+
+    <button id="deleteButton">リセットボタン</button>
+
+    <script src="food.js"></script>
+  </body>
+</html>
