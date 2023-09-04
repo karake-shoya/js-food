@@ -14,7 +14,7 @@ body {
 
 .box {
   display: flex;
-  margin: 30px;
+  margin: 30px 30px 30px 0;
   border: 1px solid #ccc;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -25,21 +25,47 @@ body {
   padding-left: 30px;
 }
 
-.box-r {
-}
 
-.button {
+.buttonA {
   box-sizing: border-box;
-  width: 400px;
+  width: 360px;
   margin: 10px;
   cursor: pointer;
   padding: 20px 40px;
   background-color: #3498db;
-  font-size: 30px;
+  font-size: 28px;
   color: white;
 
   border: none;
   border-radius: 100px;
   
   transition: background-color 0.3s, color 0.3s;
+}
+
+.buttonB {
+  box-sizing: border-box;
+  width: 360px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 20px 40px;
+  background-color: #87cf97;
+  font-size: 28px;
+  color: white;
+
+  border: none;
+  border-radius: 100px;
+  
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#deleteButton{
+  box-sizing: border-box;
+  width: 200px;
+  margin: 10px 50px 10px 10px;
+  cursor: pointer;
+  padding: 10px 30px;
+  background-color: black;
+  font-size: 15px;
+  color: white;
+
 }
